@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """Helper function definitions."""
 
 import numpy as np
@@ -204,11 +206,11 @@ def kde_pvalue(permutation_distribution, test_statistic, tails=2, kde_grid_size=
 
 
 def create_heterogeneous_simulation(r_within_1, r_within_2, r_between_1, r_between_2, n_variables):
-    '''Create a heterogeneous multivariate covariance matrix based on:
+    """Create a heterogeneous multivariate covariance matrix based on:
         Omelka, M. and Hudecova, S. (2013) A comparison of the Mantel test
         with a generalised distance covariance test. Environmetrics,
         Vol. 24, 449–460. DOI: 10.1002/env.2238.
-    '''
+    """
     z = np.zeros((n_variables*2, n_variables*2))
     z[:int(n_variables/2), :int(n_variables/2)] = r_within_1
     z[int(n_variables/2):n_variables, int(n_variables/2):n_variables] = r_within_2
