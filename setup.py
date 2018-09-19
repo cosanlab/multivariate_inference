@@ -13,7 +13,7 @@ setup(
     long_description="",
     author="Eshin Jolly",
     author_email='eshin.jolly.gr@dartmouth.edu',
-    url='https://github.com/ejolly/multivariate_inference',
+    url='https://github.com/cosanlab/multivariate_inference',
     packages=find_packages(include=['multivariate_inference']),
     include_package_data=True,
     install_requires=requirements,

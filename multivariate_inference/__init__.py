@@ -8,12 +8,17 @@ __author__ = """Eshin Jolly"""
 __email__ = 'eshin.jolly.gr@dartmouth.edu'
 __version__ = '0.1.0'
 
-"""
-Add init code here for example:
+__all__ = ["helpers"]
 
-__all__ = ["functions.py","classes.py"]
-
-from .functions import (func_1, func_2)
-from .classes import MyClass
-
-"""
+from .helpers import (upper,
+                      isPSD,
+                      nearestPSD,
+                      easy_multivariate_normal,
+                      kde_pvalue,
+                      create_heterogeneous_simulation
+                      )
+from .dependence import (double_center,
+                         u_center,
+                         distance_correlation,
+                         procrustes_similarity
+                         )

@@ -3,15 +3,14 @@ API Reference
 
 This reference provides detailed documentation for all the features in multivariate_inference
 
-.. Create autodocs by reading docstrings like this:
-    :mod:`multivariate_inference.functions`: Module Name
-    -------------------------------------------------------------
+:mod:`multivariate_inference.helpers`: General Helper Functions
+---------------------------------------------------------------
 
-    .. automodule:: multivariate_inference.functions
+.. automodule:: multivariate_inference.helpers
     :members:
 
-    :mod:`multivariate_inference.classes`: My_Class
-    --------------------------------------------------------
+:mod:`multivariate_inference.dependence`: Multivariate Dependence Measures
+--------------------------------------------------------------------------
 
-    .. autoclass:: multivariate_inference.classes.MyClass
+.. automodule:: multivariate_inference.dependence
     :members:

@@ -5,10 +5,19 @@
 
 --->
 
-Package to test and compare different multivariate inference methods.
+This repository contains packages as well as code notebooks to test and compare various methods for performing inference tests on correlation matrices.
+
+## Parameter to vary
+
+1. True correlation values `np.arange(0, 1, .2)` - **6 combinations**
+2. Sample size `[10, 20, 30, 50, 100]`- **5 combinations**
+3. Observation size `[10, 100, 1000]` - **3 combinations**
+4. Sampling structure `[random, blocking, banding]`- **3 combinations**
+5. Inference test `[iid permutation, mantel test (2d permutation), cluster robust standard errors, linear mixed models, jacknife, jacknife second-order]` - **6 combinations**
+6. Sample noise ?
 
 ## Installation
-`pip install git+https://github.com/ejolly/multivariate_inference`
+`pip install git+https://github.com/cosanlab/multivariate_inference`
 
 
 ## [Documentation](https://multivariate-inference.readthedocs.io/en/latest/index.html)
