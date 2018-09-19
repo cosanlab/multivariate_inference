@@ -205,7 +205,7 @@ def kde_pvalue(permutation_distribution, test_statistic, tails=2, kde_grid_size=
 
 def create_heterogeneous_simulation(r_within_1, r_within_2, r_between_1, r_between_2, n_variables):
     '''Create a heterogeneous multivariate covariance matrix based on:
-        Omelka, M. and Hudecová, Š. (2013) A comparison of the Mantel test
+        Omelka, M. and Hudecova, S. (2013) A comparison of the Mantel test
         with a generalised distance covariance test. Environmetrics,
         Vol. 24, 449–460. DOI: 10.1002/env.2238.
     '''

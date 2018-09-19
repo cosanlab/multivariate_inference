@@ -16,6 +16,18 @@ This repository contains packages as well as code notebooks to test and compare 
 5. Inference test `[iid permutation, mantel test (2d permutation), cluster robust standard errors, linear mixed models, jacknife, jacknife second-order]` - **6 combinations**
 6. Sample noise ?
 
+
+## Development
+
+Can easily edit repo settings with the following make commands:  
+- `make clean` - remove all docs, build files, tests, and python artifacts
+- `make clean-docs` - remove all built docs
+- `make test` - run all tests using tox environments
+- `make docs` - remake documentation HTML files
+- `make dist` - create a pypi compatible distribution
+- `make install` - install this package locally (i.e. using `pip install -e .`)  
+
+
 ## Installation
 `pip install git+https://github.com/cosanlab/multivariate_inference`
 
